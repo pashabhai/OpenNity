@@ -1,8 +1,12 @@
-package exception;
+package com.opennity.java7.exception;
 
-import java.io.IOException;
-import java.sql.SQLException;
-
+/**
+ * method rethrowException need not declare throws Exception
+ * even though Exception is thrown at line 31, the java 7 checks the actual type of exception throws
+ * and ensure it is mentioned in the list of throws clause
+ * @author prashant.purkar
+ *
+ */
 public class Rethrow {
 
 	/**
@@ -10,7 +14,7 @@ public class Rethrow {
 	 */
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
-		
+
 		rethrowException("First");
 
 	}

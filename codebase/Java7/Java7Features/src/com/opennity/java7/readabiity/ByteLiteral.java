@@ -1,4 +1,11 @@
-package readabiity;
+package com.opennity.java7.readabiity;
+
+/**
+ * Use of byte literal while declaring numerics
+ * This is readability feature , in class file compilre removes _ byte etc and place int values
+ * @author prashant.purkar
+ *
+ */
 
 public class ByteLiteral {
 

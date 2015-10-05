@@ -1,4 +1,4 @@
-package generics;
+package com.opennity.java7.generics;
 
 import java.util.ArrayList;
 import java.util.HashMap;

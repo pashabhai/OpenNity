@@ -4,6 +4,12 @@ import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
+/**
+ * @see http://tutorials.jenkov.com/java-nio/overview.html
+ * File handling operations using NIO
+ * @author prashant.purkar
+ *
+ */
 public class NewIO {
 
 	public static void main(String[] args) {

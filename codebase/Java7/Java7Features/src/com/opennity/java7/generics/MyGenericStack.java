@@ -1,4 +1,13 @@
-package generics;
+package com.opennity.java7.generics;
+
+/**
+ * Implementing stack using generics.
+ * This line is imp 	elements = ( E[] ) new Object[10]; as
+ * 	not possible to crate array of elements =  new E[10];
+ * @author prashant.purkar
+ *
+ * @param <E>
+ */
 
 public class MyGenericStack<E> {
 
@@ -31,7 +40,10 @@ public class MyGenericStack<E> {
 		if(size<=0){
 			System.out.println("stack is empty");
 		}
-		E result = (E) elements[--size];
+
+		// if Object array is used in place of E[] use below
+		//E result = (E) elements[--size];
+		E result =  elements[--size];
 		elements[size] = null;
 
 		return result;

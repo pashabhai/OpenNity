@@ -1,4 +1,11 @@
+package com.opennity.java7.lang;
 
+/**
+ *  Use of boolean literals and use of _ in numeric literals.
+ *  Use of string in switch statements
+ * @author prashant.purkar
+ *
+ */
 
 public class StringInSwitch {
 
