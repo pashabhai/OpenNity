@@ -1,0 +1,200 @@
+start questionset --->
+A CASE SQL statement is which of the following?
+option1 : "A way to establish a loop in SQL."
+option2 : "A way to establish an IF-THEN-ELSE in SQL."
+option3 : "A way to establish a data definition in SQL."
+
+
+A data structure where elements can be added or removed at either end but not in the middle ?
+option1 : "LinkedList"
+option2 : "Stacks"
+option3 : "Queues"
+option4 : "Deque"
+
+
+An inner class in java cannot have the following modifiers
+option1 : "public and abstract"
+option2 : "abstract and final"
+option3 : "protected"
+option4 : "private"
+
+
+Based on equals() and hashCode() contract in java, which of the following is true?
+option1 : "If two objects are equal , the hashcode will be different"
+option2 : "If two objects have same hashcode, they are equal"
+option3 : "If two objects are equal , the hashcode will be same"
+
+
+Can a class be declared Protected?
+option1 : "Yes"
+option2 : "No"
+
+
+Can we add new elements to an Arraylist declared as Final?
+option1 : "Yes"
+option2 : "No"
+
+
+Can we pass List<String> to a method which accepts List<Object>?
+option1 : "Yes"
+option2 : "No"
+
+
+Correlated queries are faster then uncorrelated subquries
+option1 : "TRUE"
+option2 : "FLASE"
+
+
+HashMap can be synchronized by _______ ?
+option1 : "Collections.synchronizeMap(hashMap);"
+option2 : " Collection.synchronizeMap(hashMap);"
+
+
+How is LinkedList implemented in Java ?
+option1 : "Singly LinkedList"
+option2 : "Doubly LinkedList"
+option3 : "Stack"
+option4 : "Queue"
+
+
+How will you make sure, you get latest value of a variable by any thread?
+option1 : "Declaring the variable as volatile."
+option2 : "Declaring the variable as transient "
+option3 : "Declaring the variable as static"
+option4 : "Declaring the variable as synchronized"
+
+
+How will you reduce synchronization for multiple read threads?
+option1 : "Use Java 5's 'write' data structure"
+option2 : "Use Java 5's 'copyOnWrite' data structure"
+option3 : "1 & 2"
+option4 : "None of the above"
+
+
+I don't want to serialize an instance variable? Which keywords can I use to make sure that the instance variable is not serialized ?
+option1 : "Static"
+option2 : "Transient"
+option3 : "Volatile"
+option4 : "Static and Transient"
+option5 : "None of the above."
+
+
+In which case a NoClassDefFoundError will be thrown?
+option1 : "When you try to compile a java file that is not found"
+option2 : "When you try to run a java .class file which is not found."
+option3 : "When you try to run a java file which is not found."
+
+
+Is HashMap in Java ?
+option1 : "Sorted"
+option2 : "Ordered"
+option3 : "Both Sorted and Ordered"
+option4 : "Neither Sorted nor Ordered"
+
+
+Is Vector in Java?
+option1 : "Sorted"
+option2 : "Ordered"
+
+
+Java 5 feature to have compile time type safety
+option1 : "Concurrent Package"
+option2 : "Blocking Queue"
+option3 : "Generics"
+option4 : "Variable Arguments"
+
+
+Under which category Strategy Design pattern will fall?
+option1 : "Creational"
+option2 : "Structural"
+option3 : "Behavioral"
+
+
+What is the size of int in Java ?
+option1 : "8-bit"
+option2 : "16-bit"
+option3 : "32-bit"
+option4 : "64-bit"
+
+
+What is the worst case complexity of QuickSort
+option1 : "O(log n)"
+option2 : "O(nlogn)"
+option3 : "O(n^2)"
+option4 : "O(n^3)"
+
+
+Where in your Java code can you make a call to the wait() method?
+option1 : "Inside Synchronized Block."
+option2 : "Outside Synchronized Block."
+option3 : "Anywhere in the code."
+
+
+Which Design Pattern is used by String class in Java
+option1 : "Factory"
+option2 : "Abstract Factory"
+option3 : "FlyWeight"
+option4 : "Builder"
+
+
+Which all memory generation areas are covered by minor-GC cycle?
+option1 : "New Generation"
+option2 : "Old Generation"
+option3 : "Permanent Generation"
+option4 : "All of the above."
+
+
+Which amongst given sorting algorithm is considered the most stable?
+option1 : "QuickSort"
+option2 : "MergeSort"
+option3 : "InsertionSort"
+option4 : "BubbleSort"
+
+
+Which method of Executor framework is being used to execute Callable statement?
+option1 : "Submit"
+option2 : "Execute"
+option3 : "Process"
+
+
+Which of the following is not instantiated using a factory method ?
+option1 : "Calendar"
+option2 : "Date"
+option3 : "DateFormat"
+option4 : "NumberFormat"
+
+
+Which of the following is/are not the methods of the Thread class?
+option1 : "yield()"
+option2 : "sleep(long msec)"
+option3 : "go()"
+option4 : "stop()"
+
+
+Whose iterator is fail-safe?
+option1 : "Hashmap"
+option2 : "SynchronizedHashmap"
+option3 : "ConcurrentHashMap"
+option4 : "All"
+
+
+Why are generics used? 
+option1 : "Generics make code more fast. "
+option2 : "Generics make code more optimised and readable. "
+option3 : "Generics add stability to your code by making more of your bugs detectable at compile time."
+option4 : "Generics add stability to your code by making more of your bugs detectable at run time."
+
+
+With Limited Memory in System, If we need to calculate the factorial of a numbershould we prefer
+option1 : "Recursion"
+option2 : "For loop"
+
+
+which is the Concurrent  implementation of  Arraylist in Concurrent Package?
+option1 : "ConcurrentHashMap"
+option2 : "Exchanger"
+option3 : "CopyOnWriteArrayList"
+option4 : "SynchronizedList"
+
+
+end questionset ---> 31
