@@ -1,0 +1,15 @@
+single responsibility principle
+
+responsibility - reason for a change
+
+-  a class can change for only one reason .
+-  reponsibilities are separated and related resposibilities are put together 
+-  there are many roles, reasons for a system to change, change required for one role should not affect
+other role. 
+
+keeping navigation login in database is bad
+keeping business login proc is bad.
+ 
+The SRP is one of the simplest of the principle, and one of the hardest to get right. Conjoining
+responsibilities is something that we do naturally. Finding and separating those
+responsibilities from one another is much of what software design is really about.

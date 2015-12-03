@@ -1,0 +1,13 @@
+9 Oct 2015, Pune
+abstract factory pattern 
+Intention - to create a family of releated classes. 
+
+factory method 
+provide interface to return object but let subclass decide which class to create
+
+Composite pattern
+compose objects into tree structure to represent part whole hierarchy.
+clients can treat individual and composition of objecst uniformly.
+
+
+
