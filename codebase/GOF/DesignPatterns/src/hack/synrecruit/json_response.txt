@@ -1,0 +1,1 @@
+{"option1":"A way to establish a loop in SQL.","option2":"A way to establish an IF-THEN-ELSE in SQL.","option3":"A way to establish a data definition in SQL.","question":"A CASE SQL statement is which of the following?"}
