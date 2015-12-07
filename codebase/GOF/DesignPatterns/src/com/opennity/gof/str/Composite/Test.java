@@ -5,12 +5,12 @@ public class Test {
 	public static void main(String[] args) {
 
 		SOFEntry question = new Questions("what is java");
-		SOFEntry ans1 = new Questions("java is programmig language and fun");
-		SOFEntry ans2 = new Questions("java is cool, secure");
-		SOFEntry com1 = new Questions("oops programming");
-		SOFEntry com2 = new Questions("hot secure");
-		SOFEntry com3 = new Questions("just google it");
-		SOFEntry com4 = new Questions("both are correct answers");
+		SOFEntry ans1 = new Answers("java is programmig language and fun");
+		SOFEntry ans2 = new Answers("java is cool, secure");
+		SOFEntry com1 = new Comments("oops programming");
+		SOFEntry com2 = new Comments("hot secure");
+		SOFEntry com3 = new Comments("just google it");
+		SOFEntry com4 = new Comments("both are correct answers");
 
 
 		question.add(ans1);
@@ -20,7 +20,13 @@ public class Test {
 		question.add(com3);
 		question.add(com4);
 
+	//	System.out.println("question"+question);
+	//	for(SOFEntry entry: question.getEntries()){
 
+		//	System.out.println(entry);
+
+	//	}
+		//question.publish();
 		System.out.println(question.publish());
 	}
 
