@@ -20,13 +20,6 @@ public class Test {
 		question.add(com3);
 		question.add(com4);
 
-	//	System.out.println("question"+question);
-	//	for(SOFEntry entry: question.getEntries()){
-
-		//	System.out.println(entry);
-
-	//	}
-		//question.publish();
 		System.out.println(question.publish());
 	}
 
