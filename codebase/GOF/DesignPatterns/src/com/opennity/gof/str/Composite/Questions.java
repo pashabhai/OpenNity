@@ -55,14 +55,16 @@ public class Questions extends SOFEntry {
 
 	@Override
 	public String publish() {
-		String publishString = " question is " +value + "\n";
-		for(SOFEntry comment : entries){
+		StringBuilder publishString = new StringBuilder();
+		publishString.append(" question is " +value + "\n");
 
-				publishString += "\t" + comment.publish()+ "\n";
+		for(SOFEntry entry : entries){
+				publishString.append("\t" + entry.publish()+ "\n");
+				//System.out.println(publishString);
 
 		}
-		System.out.println("ques "+ publishString);
-		return publishString;
+
+		return publishString.toString();
 	}
 
 
