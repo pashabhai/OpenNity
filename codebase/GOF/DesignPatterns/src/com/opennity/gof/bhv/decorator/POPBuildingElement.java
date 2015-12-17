@@ -11,10 +11,10 @@ public class POPBuildingElement implements BuildingElement {
 	}
 
 	@Override
-	public void use() {
+	public void decorate() {
 
 		System.out.println("POP started");
-		buildingElement.use();
+		buildingElement.decorate();
 		System.out.println("POP finished");
 
 	}

@@ -27,7 +27,11 @@ public class Questions extends SOFEntry {
 
 	@Override
 	public boolean add(SOFEntry entry) {
-		return entries.add(entry);
+		if (entry instanceof Questions){
+			System.out.println("can not add question to question");
+			return false;
+		}
+		else return entries.add(entry);
 
 
 	}
