@@ -12,7 +12,10 @@ public class Test {
 
 	public static void main(String[] args) {
 
-    new Situation(new KnowledgeMind()).handle();
+	Mind mind = new KnowledgeMind();
+	Situation anySituation = new Situation(mind);
+
+	anySituation.handle();
 
 	}
 

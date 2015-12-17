@@ -8,6 +8,33 @@ provide interface to return object but let subclass decide which class to create
 Composite pattern
 compose objects into tree structure to represent part whole hierarchy.
 clients can treat individual and composition of objecst uniformly.
+design choice is transparency vs safety of child sepcific operations.
+
+16 Dec 2015, Pune
+Decorator Pattern
+attach additional responsibility to an object dynamically. provides a flexible alternative to subclassing 
+or static reference for extending functionality.
+
+attach responsibility to individual object not an entire class.
+
+inheritance or composition is static and can not be controlled at run time.
+in stratregy pattern interface can be diff than of a component
+in decorator, decorator interfa eis same as of component
+decorator works transparently where as in  startegy a static ref is linked from component
+in case of strategy a singe component can have multiple variations and those variatiosn are encapsulated in stratregy 
+where as in decorator multiple component can have multiple variations and static classes to accomodate that is not
+always feasible.
+
+decorator pattern wraps the component where as stratergy wraps the stratery.
+adaptor simply changes the interface in comparison to decorator and stratergy.
+if component is heavy use stratergy, if component does not have too many methods use decorator.
+
+
+
+
+
+
+
 
 
 
