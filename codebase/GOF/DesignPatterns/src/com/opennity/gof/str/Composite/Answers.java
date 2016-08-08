@@ -40,7 +40,7 @@ public class Answers extends SOFEntry {
 				publishString += "\t" + comment.publish()+ "\n";
 
 		}
-		System.out.println("ans "+publishString);
+
 		return publishString;
 	}
 
