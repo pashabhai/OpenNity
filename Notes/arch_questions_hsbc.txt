@@ -1,0 +1,18 @@
+1. What is Enterprise Architecture
+An organisation or enterprise typically has many functions such administration, finance, business , etc. All of these function requiring a software specialised to their needs. These softwares or application depends upon each other directly or indirectly in many ways.
+
+Enterprise architecture is about how all of these stand together to carry organisations functions better & efficiently together. 
+
+A limitation of the payment system or security vulnerability in another impacts the whole organisation. And enterprise architecture solve the concerns in a continuous manner. 
+
+2. Role of Enterprise Architect, Functional Architect and Solution Architect in an enterprise
+
+
+
+- Candidate should read about TOGAF its ADM lifecycle and viewpoints
+- What is Architecture Governance - what is the role of Architecture review in the doing architecture governance What is Design Authority and its role in Architecture review
+- What is a tech architecture review and functional architecture review
+- What is Architecture Modeling, what is the modeling in business, data and application domain
+- Candidate should read about ArchiMate notation to understand the ArchiMate language -  the framework, concept and layers Good to have - Some sort of modeling experience, if no prior modeling experience, try UML modeling for some understanding of Modeling basics. Though ArchiMate knowledge will give a good start, actually doing some UML will assist in understanding the concepts of ArchiMate
+- Should be confident, good communication skills, should be self driven, eager to learn and participate and independent
+ 
